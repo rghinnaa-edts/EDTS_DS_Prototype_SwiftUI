@@ -1,0 +1,58 @@
+PODS:
+  - EDTS_DS_SwiftUI/Alertbox (0.0.1):
+    - EDTS_DS_SwiftUI/Assets
+    - EDTS_DS_SwiftUI/Button
+    - EDTS_DS_SwiftUI/Color
+    - EDTS_DS_SwiftUI/Extensions
+    - EDTS_DS_SwiftUI/Font
+    - EDTS_DS_SwiftUI/Shape
+  - EDTS_DS_SwiftUI/Assets (0.0.1)
+  - EDTS_DS_SwiftUI/Button (0.0.1):
+    - EDTS_DS_SwiftUI/Assets
+    - EDTS_DS_SwiftUI/Color
+    - EDTS_DS_SwiftUI/Extensions
+    - EDTS_DS_SwiftUI/Font
+    - EDTS_DS_SwiftUI/Signifier
+  - EDTS_DS_SwiftUI/Color (0.0.1)
+  - EDTS_DS_SwiftUI/Extensions (0.0.1):
+    - EDTS_DS_SwiftUI/Assets
+    - EDTS_DS_SwiftUI/Color
+    - EDTS_DS_SwiftUI/Font
+  - EDTS_DS_SwiftUI/Font (0.0.1)
+  - EDTS_DS_SwiftUI/Shape (0.0.1):
+    - EDTS_DS_SwiftUI/Assets
+    - EDTS_DS_SwiftUI/Color
+    - EDTS_DS_SwiftUI/Extensions
+    - EDTS_DS_SwiftUI/Font
+  - EDTS_DS_SwiftUI/Signifier (0.0.1):
+    - EDTS_DS_SwiftUI/Assets
+    - EDTS_DS_SwiftUI/Color
+    - EDTS_DS_SwiftUI/Extensions
+    - EDTS_DS_SwiftUI/Font
+    - EDTS_DS_SwiftUI/Skeleton
+  - EDTS_DS_SwiftUI/Skeleton (0.0.1):
+    - EDTS_DS_SwiftUI/Assets
+    - EDTS_DS_SwiftUI/Color
+    - EDTS_DS_SwiftUI/Extensions
+    - EDTS_DS_SwiftUI/Font
+  - lottie-ios (4.6.1)
+
+DEPENDENCIES:
+  - EDTS_DS_SwiftUI/Alertbox (from `/Users/rizkaghinna/Documents/Work/Main Projects/EDTS_DS_SwiftUI`)
+  - lottie-ios
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  EDTS_DS_SwiftUI:
+    :path: "/Users/rizkaghinna/Documents/Work/Main Projects/EDTS_DS_SwiftUI"
+
+SPEC CHECKSUMS:
+  EDTS_DS_SwiftUI: 716fa8f0c448274900f9e154933794c66201f171
+  lottie-ios: 6467ca7035120c5b0e0acee58bb679cf15875686
+
+PODFILE CHECKSUM: 07bcf026d629148110d20fc8248f01325f918e9c
+
+COCOAPODS: 1.16.2

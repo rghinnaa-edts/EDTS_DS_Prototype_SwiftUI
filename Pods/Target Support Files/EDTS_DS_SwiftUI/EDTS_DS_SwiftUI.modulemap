@@ -1,0 +1,6 @@
+framework module EDTS_DS_SwiftUI {
+  umbrella header "EDTS_DS_SwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

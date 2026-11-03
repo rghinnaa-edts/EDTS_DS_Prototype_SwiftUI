@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1CBC8E2883213383B9DD04ED /* Pods_EDTS_DS_Prototype_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671B4F7812BF4882978F3DFF /* Pods_EDTS_DS_Prototype_SwiftUI.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		505B0504307748AB009BAC92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,9 @@
 		505B04F6307748A9009BAC92 /* EDTS_DS_Prototype_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDTS_DS_Prototype_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505B0503307748AB009BAC92 /* EDTS_DS_Prototype_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EDTS_DS_Prototype_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		505B050D307748AB009BAC92 /* EDTS_DS_Prototype_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EDTS_DS_Prototype_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		671B4F7812BF4882978F3DFF /* Pods_EDTS_DS_Prototype_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EDTS_DS_Prototype_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4ED5FAD3131B4A1AA9F3A6 /* Pods-EDTS_DS_Prototype_SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EDTS_DS_Prototype_SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-EDTS_DS_Prototype_SwiftUI/Pods-EDTS_DS_Prototype_SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		DD3C8D6909EC497049F5F34F /* Pods-EDTS_DS_Prototype_SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EDTS_DS_Prototype_SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-EDTS_DS_Prototype_SwiftUI/Pods-EDTS_DS_Prototype_SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBC8E2883213383B9DD04ED /* Pods_EDTS_DS_Prototype_SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +87,8 @@
 				505B0506307748AB009BAC92 /* EDTS_DS_Prototype_SwiftUITests */,
 				505B0510307748AB009BAC92 /* EDTS_DS_Prototype_SwiftUIUITests */,
 				505B04F7307748A9009BAC92 /* Products */,
+				5AD17DA04BB5C50C1F6B390C /* Pods */,
+				808E6BD56D74C8730424C465 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +102,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5AD17DA04BB5C50C1F6B390C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A4ED5FAD3131B4A1AA9F3A6 /* Pods-EDTS_DS_Prototype_SwiftUI.debug.xcconfig */,
+				DD3C8D6909EC497049F5F34F /* Pods-EDTS_DS_Prototype_SwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		808E6BD56D74C8730424C465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				671B4F7812BF4882978F3DFF /* Pods_EDTS_DS_Prototype_SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 505B0517307748AB009BAC92 /* Build configuration list for PBXNativeTarget "EDTS_DS_Prototype_SwiftUI" */;
 			buildPhases = (
+				F80D188CC68D5DF41AE26527 /* [CP] Check Pods Manifest.lock */,
 				505B04F2307748A9009BAC92 /* Sources */,
 				505B04F3307748A9009BAC92 /* Frameworks */,
 				505B04F4307748A9009BAC92 /* Resources */,
+				954BCD4B4BB521DD5D2EC08C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +140,6 @@
 				505B04F8307748A9009BAC92 /* EDTS_DS_Prototype_SwiftUI */,
 			);
 			name = EDTS_DS_Prototype_SwiftUI;
-			packageProductDependencies = (
-			);
 			productName = EDTS_DS_Prototype_SwiftUI;
 			productReference = 505B04F6307748A9009BAC92 /* EDTS_DS_Prototype_SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -134,8 +161,6 @@
 				505B0506307748AB009BAC92 /* EDTS_DS_Prototype_SwiftUITests */,
 			);
 			name = EDTS_DS_Prototype_SwiftUITests;
-			packageProductDependencies = (
-			);
 			productName = EDTS_DS_Prototype_SwiftUITests;
 			productReference = 505B0503307748AB009BAC92 /* EDTS_DS_Prototype_SwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,8 +182,6 @@
 				505B0510307748AB009BAC92 /* EDTS_DS_Prototype_SwiftUIUITests */,
 			);
 			name = EDTS_DS_Prototype_SwiftUIUITests;
-			packageProductDependencies = (
-			);
 			productName = EDTS_DS_Prototype_SwiftUIUITests;
 			productReference = 505B050D307748AB009BAC92 /* EDTS_DS_Prototype_SwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +253,52 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		954BCD4B4BB521DD5D2EC08C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EDTS_DS_Prototype_SwiftUI/Pods-EDTS_DS_Prototype_SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EDTS_DS_Prototype_SwiftUI/Pods-EDTS_DS_Prototype_SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EDTS_DS_Prototype_SwiftUI/Pods-EDTS_DS_Prototype_SwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80D188CC68D5DF41AE26527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EDTS_DS_Prototype_SwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		505B04F2307748A9009BAC92 /* Sources */ = {
@@ -392,6 +461,7 @@
 		};
 		505B0518307748AB009BAC92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4ED5FAD3131B4A1AA9F3A6 /* Pods-EDTS_DS_Prototype_SwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,12 +469,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MHKJ3B9LJR;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,6 +496,7 @@
 		};
 		505B0519307748AB009BAC92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3C8D6909EC497049F5F34F /* Pods-EDTS_DS_Prototype_SwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -431,12 +504,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MHKJ3B9LJR;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,483 @@
+{
+  "name": "EDTS_DS_SwiftUI",
+  "version": "0.0.1",
+  "summary": "UI Components and Animation",
+  "description": "UI Components and Animation of EDTS Apps with SwiftUI",
+  "homepage": "https://github.com/rghinnaa-edts/EDTS_DS_SwiftUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rizka Ghinna": "rizka.ghinna@sg-dsa.com",
+    "Yovita Handayiani": "yovita.handayiani@sg-dsa.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "git": "https://github.com/rghinnaa-edts/EDTS_DS_SwiftUI.git",
+    "tag": "0.0.1"
+  },
+  "frameworks": "SwiftUI",
+  "default_subspecs": [
+    "Color",
+    "Font",
+    "Assets"
+  ],
+  "subspecs": [
+    {
+      "name": "Color",
+      "source_files": "EDTS_DS_SwiftUI/Assets/Color/**/*.swift"
+    },
+    {
+      "name": "Font",
+      "source_files": "EDTS_DS_SwiftUI/Assets/Font/**/*.swift",
+      "resources": "EDTS_DS_SwiftUI/Assets/Font/Inter/*.{ttf,otf}"
+    },
+    {
+      "name": "Assets",
+      "resource_bundles": {
+        "EDTS_DSAssets": "EDTS_DS_SwiftUI/Assets/**/*.xcassets"
+      }
+    },
+    {
+      "name": "Animations",
+      "source_files": "EDTS_DS_SwiftUI/Views/Animations/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": []
+      }
+    },
+    {
+      "name": "Helper",
+      "source_files": "EDTS_DS_SwiftUI/Views/Helper/**/*.swift"
+    },
+    {
+      "name": "Extensions",
+      "source_files": "EDTS_DS_SwiftUI/Views/Extensions/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": []
+      }
+    },
+    {
+      "name": "Card",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Card/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Checkbox",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Checkbox/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Chip",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Chip/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Ribbon",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Ribbon/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Search",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Search/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Skeleton",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Skeleton/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "StepPageNav",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/StepPageNav/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Textfield",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Textfield/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Toggle",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Toggle/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Tooltip",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Tooltip/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "View",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/View/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Alertbox",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Alertbox/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/Button": [],
+        "EDTS_DS_SwiftUI/Shape": []
+      }
+    },
+    {
+      "name": "Badge",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Badge/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/Skeleton": []
+      }
+    },
+    {
+      "name": "Button",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Button/Default/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/Signifier": []
+      }
+    },
+    {
+      "name": "ButtonIcon",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Button/Icon/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/Button": [],
+        "EDTS_DS_SwiftUI/Signifier": []
+      }
+    },
+    {
+      "name": "ButtonStepper",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Button/Stepper/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/Signifier": []
+      }
+    },
+    {
+      "name": "CardSelection",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Card/Selection/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "CircularLoading",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/ProgressTracker/CircularLoading/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/View": [],
+        "EDTS_DS_SwiftUI/ProgressTracker": []
+      }
+    },
+    {
+      "name": "Coachmark",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Coachmark/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/Button": []
+      }
+    },
+    {
+      "name": "Dialog",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Dialog/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/Button": []
+      }
+    },
+    {
+      "name": "ProgressTracker",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/ProgressTracker/Default/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/View": []
+      }
+    },
+    {
+      "name": "RadioButton",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/RadioButton/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/View": []
+      }
+    },
+    {
+      "name": "Shape",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Shape/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Signifier",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Signifier/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/Skeleton": []
+      }
+    },
+    {
+      "name": "Tab",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Tab/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/Chip": [],
+        "EDTS_DS_SwiftUI/Skeleton": []
+      }
+    },
+    {
+      "name": "Toast",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Toast/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": [],
+        "EDTS_DS_SwiftUI/Button": [],
+        "EDTS_DS_SwiftUI/ButtonIcon": []
+      }
+    },
+    {
+      "name": "Tray",
+      "source_files": "EDTS_DS_SwiftUI/Views/Components/General/Tray/**/*.swift",
+      "dependencies": {
+        "EDTS_DS_SwiftUI/Color": [],
+        "EDTS_DS_SwiftUI/Font": [],
+        "EDTS_DS_SwiftUI/Assets": [],
+        "EDTS_DS_SwiftUI/Extensions": []
+      }
+    },
+    {
+      "name": "Klik",
+      "subspecs": [
+        {
+          "name": "CouponOffered",
+          "source_files": "EDTS_DS_SwiftUI/Views/Components/KlikIDM/Card/CouponOffered/**/*.swift",
+          "dependencies": {
+            "EDTS_DS_SwiftUI/Color": [],
+            "EDTS_DS_SwiftUI/Font": [],
+            "EDTS_DS_SwiftUI/Assets": [],
+            "EDTS_DS_SwiftUI/Extensions": [],
+            "EDTS_DS_SwiftUI/Badge": [],
+            "EDTS_DS_SwiftUI/Button": [],
+            "EDTS_DS_SwiftUI/Ribbon": [],
+            "EDTS_DS_SwiftUI/Helper": []
+          }
+        },
+        {
+          "name": "MyCoupon",
+          "source_files": "EDTS_DS_SwiftUI/Views/Components/KlikIDM/Card/MyCoupon/**/*.swift",
+          "dependencies": {
+            "EDTS_DS_SwiftUI/Color": [],
+            "EDTS_DS_SwiftUI/Font": [],
+            "EDTS_DS_SwiftUI/Assets": [],
+            "EDTS_DS_SwiftUI/Extensions": [],
+            "EDTS_DS_SwiftUI/Badge": [],
+            "EDTS_DS_SwiftUI/Ribbon": [],
+            "EDTS_DS_SwiftUI/View": []
+          }
+        },
+        {
+          "name": "Product",
+          "source_files": "EDTS_DS_SwiftUI/Views/Components/KlikIDM/Card/Product/**/*.swift",
+          "dependencies": {
+            "EDTS_DS_SwiftUI/Color": [],
+            "EDTS_DS_SwiftUI/Font": [],
+            "EDTS_DS_SwiftUI/Assets": [],
+            "EDTS_DS_SwiftUI/Extensions": [],
+            "EDTS_DS_SwiftUI/Badge": [],
+            "EDTS_DS_SwiftUI/ButtonStepper": []
+          }
+        },
+        {
+          "name": "ShoppingType",
+          "source_files": "EDTS_DS_SwiftUI/Views/Components/KlikIDM/Card/ShoppingType/**/*.swift",
+          "dependencies": {
+            "EDTS_DS_SwiftUI/Color": [],
+            "EDTS_DS_SwiftUI/Font": [],
+            "EDTS_DS_SwiftUI/Assets": [],
+            "EDTS_DS_SwiftUI/Extensions": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "Poinku",
+      "subspecs": [
+        {
+          "name": "Card",
+          "subspecs": [
+            {
+              "name": "Coupon",
+              "source_files": "EDTS_DS_SwiftUI/Views/Components/Poinku/Card/Coupon/**/*.swift",
+              "dependencies": {
+                "EDTS_DS_SwiftUI/Color": [],
+                "EDTS_DS_SwiftUI/Font": [],
+                "EDTS_DS_SwiftUI/Assets": [],
+                "EDTS_DS_SwiftUI/Extensions": [],
+                "EDTS_DS_SwiftUI/Ribbon": []
+              }
+            },
+            {
+              "name": "Poin",
+              "source_files": "EDTS_DS_SwiftUI/Views/Components/Poinku/Card/Poin/**/*.swift",
+              "dependencies": {
+                "EDTS_DS_SwiftUI/Color": [],
+                "EDTS_DS_SwiftUI/Font": [],
+                "EDTS_DS_SwiftUI/Assets": [],
+                "EDTS_DS_SwiftUI/Extensions": [],
+                "EDTS_DS_SwiftUI/Ribbon": []
+              }
+            },
+            {
+              "name": "Stamp",
+              "source_files": "EDTS_DS_SwiftUI/Views/Components/Poinku/Card/Stamp/**/*.swift",
+              "dependencies": {
+                "EDTS_DS_SwiftUI/Color": [],
+                "EDTS_DS_SwiftUI/Font": [],
+                "EDTS_DS_SwiftUI/Assets": [],
+                "EDTS_DS_SwiftUI/Extensions": [],
+                "EDTS_DS_SwiftUI/Ribbon": []
+              }
+            }
+          ]
+        },
+        {
+          "name": "OnBoarding",
+          "subspecs": [
+            {
+              "name": "PageControl",
+              "source_files": "EDTS_DS_SwiftUI/Views/Components/Poinku/OnBoarding/EDTSPageControl.swift"
+            },
+            {
+              "name": "OnBoardingV1",
+              "source_files": "EDTS_DS_SwiftUI/Views/Components/Poinku/OnBoarding/OnBoardingV1/**/*.swift",
+              "dependencies": {
+                "EDTS_DS_SwiftUI/Color": [],
+                "EDTS_DS_SwiftUI/Font": [],
+                "EDTS_DS_SwiftUI/Assets": [],
+                "EDTS_DS_SwiftUI/Extensions": [],
+                "EDTS_DS_SwiftUI/Poinku/OnBoarding/PageControl": []
+              }
+            },
+            {
+              "name": "OnBoardingV2",
+              "source_files": "EDTS_DS_SwiftUI/Views/Components/Poinku/OnBoarding/OnBoardingV2/**/*.swift",
+              "dependencies": {
+                "EDTS_DS_SwiftUI/Color": [],
+                "EDTS_DS_SwiftUI/Font": [],
+                "EDTS_DS_SwiftUI/Assets": [],
+                "EDTS_DS_SwiftUI/Extensions": [],
+                "EDTS_DS_SwiftUI/Poinku/OnBoarding/PageControl": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swift_version": "5.0"
+}

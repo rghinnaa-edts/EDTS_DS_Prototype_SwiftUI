@@ -1,0 +1,6 @@
+framework module Pods_EDTS_DS_Prototype_SwiftUI {
+  umbrella header "Pods-EDTS_DS_Prototype_SwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
